@@ -113,7 +113,7 @@ body {
   margin: 0;
 /*  font-family: var(--bs-font-sans-serif);*/
   font-family: 'Montserrat', sans-serif;
-  background: url(/img/bg.png) repeat;
+  background: url(https://mahoobox.github.io/lmf/img/bg.png) repeat
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
