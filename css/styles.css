@@ -139,6 +139,10 @@
   font-weight: 700;
   text-shadow: 2px 1px #1919191f;
 }
+.lmf-controles-comunes:hover{
+  color: #ffffff;
+  text-shadow:3px 1px 3px #00000042;
+}
 /* END LMF STYLES */
 
 body {
