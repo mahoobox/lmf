@@ -53,11 +53,28 @@
 .lmf-bg{
   background-color: #f5d849 !important;
 }
+.lmf-logo-prin{
+  width: 120px;
+}
 .lmf-bg-2{
   background-color: #285e75 !important;
 }
+.lmf-container{
+  background:#ffffff;
+  border:1px solid #e4e4e4;
+  padding: 2rem !important;
+  margin: 1rem auto;
+}
 .lmf-logo {
-  width: 40%;
+  height: 160px;
+}
+.lmf-titulo{
+  text-align: center;
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+}
+.lmf-direccion,.lmf-telefono{
+  text-align: center;
 }
 .lmf-logo-footer{
   width: 150px;
@@ -65,15 +82,38 @@
 .lmf-icons {
   margin-right: 0.5rem;
   color: #359dca;
+  font-size:2rem;
 }
 .lmf-icons:hover {
   color: #f5d849;
+}
+.texto-vertical-1 {
+  writing-mode: vertical-lr;
+}
+.texto-vertical-2 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+.lmf-descripcion {
+  padding: 1.8rem 3rem;
+  background: #398a8b;
+  border-radius: 0 15px 15px 0;
+  font-size: 0.9rem !important;
+  color: #ffffff;
+}
+.lmf-col-2 {
+  padding-left: 0;
+}
+.lmf-col-1 {
+  padding-right: 0;
 }
 /* END LMF STYLES */
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+/*  font-family: var(--bs-font-sans-serif);*/
+  font-family: 'Montserrat', sans-serif;
+  background: url(/img/bg.png) repeat;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
