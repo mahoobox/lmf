@@ -102,10 +102,10 @@
   color: #ffffff;
 }
 .lmf-col-2 {
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 .lmf-col-1 {
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 /* END LMF STYLES */
 
