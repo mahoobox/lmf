@@ -101,6 +101,10 @@
   font-size: 0.9rem !important;
   color: #ffffff;
 }
+.lmf-pescador {
+  font-weight: bold;
+
+}
 .lmf-col-2 {
   padding-left: 0 !important;
 }
@@ -149,6 +153,15 @@
   font-weight: 700;
   font-size: 0.95rem;
 }
+
+/* para 700px o menos */
+@media screen and (max-width: 700px) {
+  .lmf-logo {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}  
+}
+  
 /* END LMF STYLES */
 
 body {
