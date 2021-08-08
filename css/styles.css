@@ -153,13 +153,27 @@
   font-weight: 700;
   font-size: 0.95rem;
 }
+.lmf-frase-header-mob{
+  display: none;
+} 
+/* para 900px o menos */
+@media screen and (max-width: 900px) {
+  .lmf-frase-header-desktop{
+    display: none;
+  }
+  .lmf-frase-header-mob{
+    display: inline;
+    text-align: center;
+    margin:0 auto;
+  } 
+}
 
 /* para 700px o menos */
 @media screen and (max-width: 700px) {
   .lmf-logo {
     margin-top: 25px;
     margin-bottom: 15px;
-}  
+  }  
 }
   
 /* END LMF STYLES */
