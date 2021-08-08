@@ -156,6 +156,16 @@
 .lmf-frase-header-mob{
   display: none;
 } 
+.lmf-logos-inicio {
+  width: 80px;
+}
+.lmf-card {
+  margin-top: 20px;
+  padding: 5px;
+}
+.lmf-banner-inicio{
+  width: 100%;
+}
 /* para 900px o menos */
 @media screen and (max-width: 900px) {
   .lmf-frase-header-desktop{
