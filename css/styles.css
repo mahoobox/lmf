@@ -166,6 +166,13 @@
 .lmf-banner-inicio{
   width: 100%;
 }
+.lmf-card .card-title {
+  font-size: 1.1rem;
+}
+.lmf-card-inicio .card-title {
+  font-size: 1.5rem;
+}
+
 /* para 900px o menos */
 @media screen and (max-width: 900px) {
   .lmf-frase-header-desktop{
