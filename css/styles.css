@@ -172,6 +172,13 @@
 .lmf-card-inicio .card-title {
   font-size: 1.5rem;
 }
+.carousel-control-next-icon,.carousel-control-prev-icon{
+  background-color: #151515a3;
+  border-radius: 5px;
+}
+.carousel-indicators {
+  background: #00000017;
+}
 
 /* para 900px o menos */
 @media screen and (max-width: 900px) {
