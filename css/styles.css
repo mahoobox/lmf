@@ -205,6 +205,9 @@ li.nav-item {
   background: #e8d24fc7;
   text-shadow: 2px 1px 1px #ffffff7a;
 }
+section{
+  margin-top:-30px;
+}
 /* para 900px o menos */
 @media screen and (max-width: 990px) {
   .lmf-frase-header-desktop{
