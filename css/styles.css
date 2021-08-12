@@ -51,7 +51,7 @@
 
 /* LMF STYLES */
 .lmf-bg{
-  background-color: #f5d849 !important;
+/*  background-color: #f5d849 !important;*/
 }
 .lmf-logo-prin{
   width: 120px;
@@ -142,6 +142,7 @@
   text-decoration: none;
   font-weight: 700;
   text-shadow: 2px 1px #1919191f;
+  z-index: 2;
 }
 .lmf-controles-comunes:hover{
   color: #ffffff;
@@ -181,9 +182,31 @@
 .carousel-indicators {
   background: #00000017;
 }
+.lmf-banner-inicio-nuevo {
+  width: 100%;
+}
 
+.overlay {
+  position: relative;
+  display: block;
+  width: 100%;
+  top: -80px;
+  z-index: 1000;
+
+}
+
+.fondo {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+}
+li.nav-item {
+  background: #e8d24fc7;
+  text-shadow: 2px 1px 1px #ffffff7a;
+}
 /* para 900px o menos */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .lmf-frase-header-desktop{
     display: none;
   }
@@ -198,6 +221,10 @@
     width: 80%;
     margin: 0 auto;
   }
+  div#navbarSupportedContent {
+    background: #e8d24f;
+    padding:10px 20px;
+}
 }
 
 /* para 700px o menos */
@@ -206,6 +233,10 @@
     margin-top: 25px;
     margin-bottom: 15px;
   }  
+  .overlay{
+    top:-70px;
+  }
+  
 }
   
 /* END LMF STYLES */
